@@ -59,5 +59,7 @@ Cada subscriber será executado de uma maneira diferente. Segue abaixo os comand
 # Observações Finais
 Para correção de problemas de conexão, analize o conteúdo dos arquivos `conCredentials.h` e `subsconfig.py`, verifique também se os arquivos `mosquitto_tls_conf.py` e `mosquitto_utils.py` estão configurando corretamente o broker e os certificados de acesso.
 
+Verifique também a rede de conexão em que seus dispositivos estão conectados, se necessário a troca atualize as constantes `WIFI_SSID` e `WIFI_PASSWD` no arquivo `mosquitto_tls_utils.py`.
+
 # Referências
 [Como utilizar sensor RTC3231 com ESP32](https://randomnerdtutorials.com/esp32-ds3231-real-time-clock-arduino/)
